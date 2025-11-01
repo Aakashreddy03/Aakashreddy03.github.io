@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beduduri Akash Reddy — AWS Cloud & Python</title>
+  <meta name="description" content="Akash Reddy — AWS Cloud Engineer & Python Developer portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#home">Beduduri Akash Reddy</a>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="container">
+        <p class="overline">AWS Cloud • Python • SQL</p>
+        <h1>
+          <span class="fade-text">Cloud Engineer</span>
+          <span class="amp">&</span>
+          <span class="fade-text gradient">Python Developer</span>
+        </h1>
+        <p class="lead">
+          Proficient in AWS (EC2, S3, IAM, API Gateway, Lambda, DynamoDB, CloudFront, Route 53), Python, and SQL with hands‑on deployment, automation, and monitoring experience from a two‑month AWS internship. Strong with NumPy, Pandas, Matplotlib and Git/GitHub; eager to build reliable, scalable systems and contribute as an AWS professional.
+        </p>
+
+        <div class="pill-grid">
+          <div class="pill"><img src="icons/aws.svg" alt=""> AWS Services</div>
+          <div class="pill"><img src="icons/cloud.svg" alt=""> CloudFront • Route 53</div>
+          <div class="pill"><img src="icons/api.svg" alt=""> API Gateway • Lambda</div>
+          <div class="pill"><img src="icons/db.svg" alt=""> DynamoDB • RDS</div>
+          <div class="pill"><img src="icons/java.svg" alt=""> Python • SQL</div>
+        </div>
+      </div>
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="muted">
+          Quick‑learning cloud enthusiast from Anantapur, Andhra Pradesh, focusing on serverless, static hosting, and data workflows on AWS. Comfortable with Linux, AWS CLI, and automation using Python to move data across S3, Lambda, and RDS while keeping costs efficient and deployments simple.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3><img src="icons/aws.svg" alt=""> AWS Core</h3>
+            <p>EC2, S3, IAM, VPC, CloudWatch, Load Balancer, Route 53, CloudFront.</p>
+          </article>
+          <article class="card">
+            <h3><img src="icons/api.svg" alt=""> Serverless</h3>
+            <p>API Gateway, Lambda, DynamoDB; REST APIs and event‑driven flows.</p>
+          </article>
+          <article class="card">
+            <h3><img src="icons/db.svg" alt=""> Databases</h3>
+            <p>DynamoDB modeling, RDS basics, SQL querying and optimization.</p>
+          </article>
+          <article class="card">
+            <h3><img src="icons/java.svg" alt=""> Python</h3>
+            <p>Boto3 automation, ETL with Pandas/NumPy, scripting and data tasks.</p>
+          </article>
+          <article class="card">
+            <h3><img src="icons/security.svg" alt=""> Security</h3>
+            <p>IAM roles/policies, least privilege, secure S3 + CloudFront OAC.</p>
+          </article>
+          <article class="card">
+            <h3><img src="icons/github.svg" alt=""> Tools</h3>
+            <p>Git/GitHub, Linux shell, AWS CLI, basic CI via GitHub Actions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects">
+          <article class="project">
+            <h3>Serverless Web Application on AWS</h3>
+            <p>
+              Designed a fully serverless web app using S3 static hosting with CloudFront CDN, backend APIs via API Gateway + Lambda, and data in DynamoDB for low‑latency access and pay‑per‑use efficiency.
+            </p>
+            <ul class="tags">
+              <li>AWS S3</li><li>CloudFront</li><li>API Gateway</li><li>Lambda</li><li>DynamoDB</li>
+            </ul>
+            <div class="actions">
+              <a class="btn" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn outline" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Static Website on EC2 & S3</h3>
+            <p>
+              Hosted a static site by configuring EC2 (Ubuntu) and S3 with IAM role‑based access; automated file syncs using AWS CLI and verified availability through EC2 public IP.
+            </p>
+            <ul class="tags">
+              <li>EC2</li><li>S3</li><li>IAM Roles</li><li>AWS CLI</li><li>Linux</li>
+            </ul>
+            <div class="actions">
+              <a class="btn" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn outline" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Data ETL Pipeline on AWS with Python</h3>
+            <p>
+              Automated extraction from S3, transformed data with Pandas in Lambda, and loaded into RDS to improve data quality and analytics readiness.
+            </p>
+            <ul class="tags">
+              <li>S3</li><li>Lambda</li><li>RDS</li><li>Python</li><li>Boto3</li><li>Pandas</li>
+            </ul>
+            <div class="actions">
+              <a class="btn" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn outline" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>B.Tech — CSE</h3>
+            <p>Annamacharya Institute of Technology & Sciences, Rajampet (Aug 2023 – Apr 2026)</p>
+          </article>
+          <article class="card">
+            <h3>Diploma</h3>
+            <p>Sri Venkateswara College of Engineering & Technology, Chittoor (Dec 2020 – Mar 2023)</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:aakashreddy2882@gmail.com">
+            <img src="icons/mail.svg" alt=""> aakashreddy2882@gmail.com
+          </a>
+          <div class="contact-card">
+            <img src="icons/location.svg" alt=""> Anantapur, Andhra Pradesh, India
+          </div>
+          <div class="socials">
+            <a aria-label="GitHub" href="#" target="_blank" rel="noopener"><img src="icons/github.svg" alt=""></a>
+            <a aria-label="LinkedIn" href="https://linkedin.com/in/aakash-beduduri" target="_blank" rel="noopener"><img src="icons/linkedin.svg" alt=""></a>
+            <a aria-label="Phone" href="tel:+919704661808" class="contact-card" style="padding:10px 12px"><img src="icons/api.svg" alt=""> +91 9704661808</a>
+          </div>
+        </div>
+        <p class="copyright">© 2025 Beduduri Akash Reddy. Built with passion and code.</p>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
